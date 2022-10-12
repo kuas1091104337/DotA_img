@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<title>DotA img</title>
+<meta name="keywords" content="Amos Chen">
+<meta name="description" content="DotA img">
+<meta name="author" content="Amos Chen">
+<meta name="copyright" content="Amos Chen">
+<!--網頁存手機主畫面，打開後全螢幕的效果-->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<!-- 修正iPhone手機旋轉後會畫面放大的問題，自動抓手機解析度，設定頁面初始縮放比1 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#00442b" />
+<meta name="referrer" content="origin">
+<!--解決手機網頁上的數字會自動變成超連結的情況-->
+<meta name="format-detection" content="telephone=no">
+<!--解決手機網頁上的數字會自動變成超連結的情況-->
+<meta name="format-detection" content="address=no">
+<!-- 把圖片的檔名設為 apple-touch-icon.png 手機會抓這張圖做為icon圖示 -->
+<link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon.png">
+<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+<style type="text/css">
+</style>
+</head>
+<body>
+ <img src="./index/me.jpg" alt="">
+ <script type="text/javascript">
+   var WHAT = navigator.userAgent;
+   if(WHAT.match(/(iPhone|Android)/)) console.log('mobile');
+   console.log(WHAT);
+ </script>
+</body>
+</html>
